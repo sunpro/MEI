@@ -1,0 +1,13 @@
+<resources>
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <color name="azure">#F0FFFF</color><!--天蓝色 -->
+    <color name="lightcoral">#F08080</color><!--亮珊瑚色 -->
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blueviolet">#8A2BE2</color><!--紫罗兰蓝色-->
+    <color name="lightseagreen">#20B2AA</color><!--亮海蓝色 -->
+    <color name="deepskyblue">#00BFFF</color><!--深天蓝色 -->
+    <color name="purple">#800080</color><!--紫色 -->
+    <color name="transparent">#9000</color>
+</resources>

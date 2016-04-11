@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActiLocation" >
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_toLeftOf="@+id/info"
+         android:layout_alignParentTop="true"
+         android:scaleType="fitXY"
+         android:src="@drawable/background" />
+
+     <TextView
+         android:id="@+id/info"
+         android:layout_width="60dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+         android:text="请点击黄区确定位置！"
+         android:textColor="#00ff00"
+         android:background="#673000" />
+
+     <RadioGroup 
+         android:id="@+id/radioGroup"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/info"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="15dp"
+         >
+         <RadioButton 
+             android:id="@+id/radio1"
+             android:text="高"
+             />
+         <RadioButton 
+             android:id="@+id/radio2"
+             android:text="中"
+             />
+         <RadioButton 
+             android:id="@+id/radio3"
+             android:text="低"
+             />
+         
+     </RadioGroup>
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerHorizontal="true"
+         android:text="" 
+         android:visibility="invisible"
+         />
+
+     <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="10dp"
+         android:layout_height="10dp"
+         android:src="@drawable/point" 
+         android:adjustViewBounds="true"
+         android:scaleType="fitXY"
+         />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_alignLeft="@+id/button2"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:text="查看" 
+         android:textSize="16sp"
+         />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_above="@+id/button1"
+         android:layout_alignLeft="@+id/button3"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="5dp"
+         android:text="确认" 
+         android:textSize="16sp"
+         />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_above="@+id/button2"
+         android:layout_alignLeft="@+id/info"
+         android:layout_alignParentRight="true"
+         android:text="修改"
+         android:textSize="16sp"
+          />
+
+     <Button
+         android:id="@+id/button4"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_above="@+id/button3"
+         android:layout_alignLeft="@+id/button3"
+         android:layout_alignParentRight="true"
+         android:text="隐藏"
+         android:textSize="16sp" />
+
+     <Button
+         android:id="@+id/button5"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_above="@+id/button4"
+         android:layout_alignLeft="@+id/button4"
+         android:layout_alignParentRight="true"
+         android:text="继续"
+         android:textSize="16sp" />
+
+</RelativeLayout>

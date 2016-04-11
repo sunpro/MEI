@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/searchicon"
+        android:showAsAction="ifRoom"
+        android:title="search"/>
+    <item
+        android:id="@+id/menu1"
+        android:title="@string/menutitle1">
+        <menu>
+            <group
+                android:id="@+id/menugroup2"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menu6"
+                    android:title="@string/menutitle6">
+                </item>
+                <item
+                    android:id="@+id/menu7"
+                    android:title="@string/menutitle7">
+                </item>
+                <item
+                    android:id="@+id/menu8"
+                    android:title="@string/menutitle8">
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu2"
+        android:title="@string/menutitle2">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+            <group
+                android:id="@+id/menugroup1"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menu3"
+                    android:title="@string/menutitle3">
+                </item>
+                <item
+                    android:id="@+id/menu4"
+                    android:title="@string/menutitle4">
+                </item>
+                <item
+                    android:id="@+id/menu5"
+                    android:title="@string/menutitle5">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+</menu>

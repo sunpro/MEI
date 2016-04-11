@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/default_padding" >
+
+        <include layout="@layout/titlebar" />
+
+        <LinearLayout
+            android:id="@+id/Sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="传感器" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Sensor_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:id="@+id/PV_Snsr_s_r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="单位序号" />
+
+            <TextView
+                android:id="@+id/PV_Snsr_Unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="单位" />
+
+            <TextView
+                android:id="@+id/PV_LSL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="下限值" />
+
+            <TextView
+                android:id="@+id/PV_USL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="上限值" />
+
+            <TextView
+                android:id="@+id/PV_Min_span"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="最小刻度值" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Signal_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="信号状况" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Signal_condition_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:id="@+id/PV_Unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="量程单位" />
+
+            <TextView
+                android:id="@+id/PV_URV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="量程上限" />
+
+            <TextView
+                android:id="@+id/PV_LRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="量程下限" />
+
+            <TextView
+                android:id="@+id/PV_Damp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="阻尼" />
+
+            <TextView
+                android:id="@+id/Xfer_fnctn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="转换函数" />
+             <TextView
+                android:id="@+id/AO_Alrm_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="报警选择" />
+         
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Field_device_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="材料信息" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Field_device_info_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:id="@+id/flange_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="法兰信息" />
+
+            <TextView
+                android:id="@+id/flange_material"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="法兰材料" />
+
+            <TextView
+                android:id="@+id/oring_material"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="O型圈材料" />
+
+            <TextView
+                android:id="@+id/drain_vent_matl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="排气排液阀" />
+
+            <TextView
+                android:id="@+id/remote_seal_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="远传装置形式" />
+             <TextView
+                android:id="@+id/seal_fill_fluid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="远传装置灌充液" />
+             <TextView
+                android:id="@+id/rmt_seal_isol_matl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="远传装置隔离膜片" />
+             <TextView
+                android:id="@+id/num_of_rmt_seals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="远传装置数量" />
+             <TextView
+                android:id="@+id/module_fill_fluid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="模块灌充液" />
+             <TextView
+                android:id="@+id/module_isol_matl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="模块隔离材料" />
+             
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Sensor_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="传感器信息" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Sensor_information_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding" >
+
+            <TextView
+                android:id="@+id/meas_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="模块类型" />
+            <TextView
+                android:id="@+id/module_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="传感器量程代码" />
+            <TextView
+                android:id="@+id/characterize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:text="校准" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

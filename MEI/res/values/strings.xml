@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MEI坐标确定系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toptext_1">人物1</string>
+    <string name="toptext_2">人物2</string>
+    <string name="toptext_3">人物3</string>
+    <string name="toptext_2_1">风景1</string>
+    <string name="toptext_2_2">风景2</string>
+    <string name="toptext_2_3">风景3</string>
+    <string name="toptext_3_1">动漫1</string>
+    <string name="toptext_3_2">动漫2</string>
+    <string name="toptext_3_3">动漫3</string>
+    <string name="menutitle1">更改背景</string>
+    <string name="menutitle2">选择主题</string>
+    <string name="menutitle3">人物</string>
+    <string name="menutitle4">风景</string>
+    <string name="menutitle5">动漫</string>
+    <string name="menutitle6">蓝色</string>
+    <string name="menutitle7">紫色</string>
+    <string name="menutitle8">默认</string>
+    <string name="search_show">哈哈，成功看到搜索界面了！</string>
+
+</resources>
